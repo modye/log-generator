@@ -27,7 +27,7 @@ public class LogGeneratorApplication {
         try {
             while (true) {
                 // Sleep a while
-                sleep(getRandomBetween(0, 3) * 1000);
+                sleep(getRandomBetween(0, 10) * 10);
                 // Do something
                 operation(getRandomBetween(1, 10));
             }
